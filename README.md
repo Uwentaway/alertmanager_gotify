@@ -21,7 +21,7 @@ export GOTIFY_TOKEN="<gotify_token>"
 Using the standard `go install` (you must have [Go](https://golang.org/) already installed in your local machine):
 
 ```bash
-go install github.com/DRuggeri/alertmanager_gotify
+go install github.com/Uwentaway/alertmanager_gotify
 ./alertmanager_gotify
 ```
 
