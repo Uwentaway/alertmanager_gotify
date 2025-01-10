@@ -6,7 +6,7 @@ An [Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/)-awar
 
 ### Binaries
 
-Download the already existing [binaries](https://github.com/DRuggeri/alertmanager_gotify_bridge/releases) for your platform:
+Download the already existing [binaries](https://github.com/Uwentaway/alertmanager_gotify/releases) for your platform:
 
 ```bash
 export GOTIFY_URL="http://<gotify_address>:<port>/message"
@@ -30,7 +30,7 @@ Alertmanager YAML Example:
 receivers:
 - name: storage
   webhook_configs:
-  - url: http://127.0.0.1:8080/webhook
+  - url: http://127.0.0.1:9110/webhook
     send_resolved: true
 ```
 
