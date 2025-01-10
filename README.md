@@ -28,7 +28,7 @@ go install github.com/DRuggeri/alertmanager_gotify
 Alertmanager YAML Example:
 ```YAML
 receivers:
-- name: storage
+- name: gitify
   webhook_configs:
   - url: http://127.0.0.1:9110/webhook
     send_resolved: true
